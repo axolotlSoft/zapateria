@@ -12,6 +12,8 @@ function generarURLWhatsApp(numeroTelefono, mensaje) {
 
 // Path: scripts/lanzarWhatsapp.js
 function lanzarWhatsApp() {
+    // mostramos en terminal que se ejecuto la funcion
+    //console.log("Se ejecutó la función lanzarWhatsApp");
     // Número de teléfono
     const numeroTelefono = "3861003209";
   
