@@ -1,5 +1,13 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
 .promo {
-    padding-top: 350px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +16,7 @@
     margin: auto;
     position: relative;
     z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .promo h1 {
@@ -15,6 +24,8 @@
     text-align: center;
     color: #f1f1f1;
     font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 .promo p {
@@ -22,6 +33,8 @@
     text-align: center;
     color: #f1f1f1;
     font-weight: 300;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 button{
@@ -71,3 +84,27 @@ video {
     opacity: 0.5;
     mix-blend-mode: overlay;
 }
+
+/* Para el cuerpo de la página */
+.contenedor {
+    height: 3000px; /* Altura del contenedor */
+    overflow: hidden; /* Ocultar elementos que excedan la altura */
+  }
+  
+  .elemento-oculto {
+    opacity: 0; /* Ocultar inicialmente los elementos */
+    transition: opacity 1s ease; /* Definir una transición para la opacidad */
+  }
+  
+  .elemento-oculto.interseccion {
+    opacity: 1; /* Mostrar elementos al intersectar el viewport */
+  }
+  
+  .elemento-oculto.interseccion-inferior {
+    opacity: 0; /* Ocultar elementos cuando se acerquen al final */
+  }
+  
+  .referencia-inferior {
+    height: 100px; /* Altura del elemento de referencia */
+  }
+  
