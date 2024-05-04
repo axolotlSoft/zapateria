@@ -11,6 +11,7 @@
     <!-- scripts de js-->
     <script src="scripts/lanzarWhatsapp.js" defer></script>
     <script src="./scripts/intersection.js" defer></script>
+    <script src="./scripts/mostrarElemento.js" defer></script>
 
 
 </head>
@@ -52,7 +53,7 @@
         </div>
 
         <h2>Sección 2</h2>
-        <div class="elemento-oculto intermedio">
+        <div class="elemento-oculto">
             <div class="contenido">
                 <div class="textoI">
                     <h2>Elemento 2</h2>
@@ -77,8 +78,99 @@
 
     <div class="referencia-inferior"></div>
 
+    <div class="sobre-nosotros">
+        <h2>
+            Sobre nosotros
+        </h2>
+        <p>
+            Somos una tienda de zapatos que se dedica a la venta de zapatos de calidad a precios accesibles.
+        </p>
+    </div>
+
+    <div class="galeria">
 
 
+    </div>
+
+    <div class="comentarios">
+
+
+    </div>
+
+    <div class="dudas">
+        <h2>
+            No te quedes con la duda.
+        </h2>
+        <div class="contenidoDudas">
+            <button type="button" onclick="mostrarElemento(10)" class="botonDudas">
+                Como comprar?
+            </button>
+            <div class="elemento-oculto" id="10" style="display: none;">
+                <p>
+                    Para comprar solo debes seleccionar el producto que deseas y dar click en el botón de comprar.
+                </p>
+            </div>
+            <hr>
+            <button type="button" onclick="mostrarElemento(11)" class="botonDudas">
+                Como comprar?
+            </button>
+            <div class="elemento-oculto" id="11" style="display: none;">
+                <p>
+                    Para comprar solo debes seleccionar el producto que deseas y dar click en el botón de comprar.
+                </p>
+            </div>
+            <hr>
+            <button type="button" onclick="mostrarElemento(12)" class="botonDudas">
+                Como comprar?
+            </button>
+            <div class="elemento-oculto" id="12" style="display: none;">
+                <p>
+                    Para comprar solo debes seleccionar el producto que deseas y dar click en el botón de comprar.
+                </p>
+            </div>
+            <hr>
+            <button type="button" onclick="mostrarElemento(13)" class="botonDudas">
+                Como comprar?
+            </button>
+            <div class="elemento-oculto" id="13" style="display: none;">
+                <p>
+                    Para comprar solo debes seleccionar el producto que deseas y dar click en el botón de comprar.
+                </p>
+            </div>
+            <hr>
+            <button type="button" onclick="mostrarElemento(14)" class="botonDudas">
+                Como comprar?
+            </button>
+            <div class="elemento-oculto" id="14" style="display: none;">
+                <p>
+                    Para comprar solo debes seleccionar el producto que deseas y dar click en el botón de comprar.
+                </p>
+            </div>
+            <hr>
+        </div>
+
+
+    </div>
+
+    <div class="pie-pagina">
+        <h1>
+            Exprésate con tu propio estilo. Elige entre nuestra gran selección.
+        </h1>
+        <img src="./multimedia/logoEmpresa.png" alt="logo" class="logo">
+        <br>
+        <div class="contenidoPiePag">
+            <h2>Ciudad 1</h2>
+            <h2>Ciudad 2</h2>
+        </div>
+    </div>
+
+
+    <div class="contenedor-boton">
+        <button onclick="lanzarWhatsApp()" class="botonInferior">
+            WhatsApp | T. 1234567890
+        </button>
+    </div>
+      
 
 </body>
 
