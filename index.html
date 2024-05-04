@@ -1,70 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Pagina de inicio">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Index</title>
-        <link rel="stylesheet" href="estilos/estilo.css">
-        <!-- scripts de js-->
-        <script src="scripts/lanzarWhatsapp.js" defer></script>
-        <script src="./scripts/intersection.js" defer></script>
-        
 
-    </head>
-    <body>
-        <main id="hero">
-            <div class="promo">
-                <h1>
-                    Estas listo para comprar tu mejor par?
-                </h1>
-                <p>
-                    Encuentra los mejores modelos de zapatos en nuestra tienda
-                </p>
-                <button type="button" onclick="lanzarWhatsApp()">
-                    Comprar
-                </button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina de inicio">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <!-- scripts de js-->
+    <script src="scripts/lanzarWhatsapp.js" defer></script>
+    <script src="./scripts/intersection.js" defer></script>
+
+
+</head>
+
+<body>
+    <main id="hero">
+        <div class="promo">
+            <h1>
+                Estas listo para comprar tu mejor par?
+            </h1>
+            <p>
+                Encuentra los mejores modelos de zapatos en nuestra tienda
+            </p>
+            <button type="button" onclick="lanzarWhatsApp()">
+                Comprar
+            </button>
+        </div>
+        <video autoplay loop muted>
+            <source src="./multimedia/fondoSup.mp4" type="video/mp4">
+        </video>
+        <div class="capa"></div>
+    </main>
+    <div class="contenedor">
+        <h2>
+            Lo mejor de nosotros
+        </h2>
+        <p>
+            Encuentra los mejores modelos de zapatos en nuestra tienda con la mejor calidad y precio.
+        </p>
+        <h2>Sección 1</h2>
+        <div class="elemento-oculto">
+            <div class="contenido">
+                <div>
+                    <h2>Elemento 1</h2>
+                    <p>Contenido que se mostrará al hacer scroll</p>
+                </div>
+                <img src="./multimedia/par1.jpg" alt="zapatos" class="imagen-producto">
             </div>
-            <video autoplay loop muted>
-                <source src="./multimedia/fondoSup.mp4" type="video/mp4">
-            </video>
-            <div class="capa"></div>
-        </main>
-        <div class="contenedor">
-            <h1>Sección 1</h1>
-            <div class="elemento-oculto">
-                Elemento 1 - Contenido que se mostrará al hacer scroll
-                <img src="./multimedia/par1.jpg" alt="zapatos">
-            </div>
-        
-            <h1>Sección 2</h1>
-            <div class="elemento-oculto">
-                Elemento 2 - Contenido que se mostrará al hacer scroll
-                <img src="./multimedia/par2.jpg" alt="zapatos">
-            </div>
-        
-            <h1>Sección 3</h1>
-            <div class="elemento-oculto">
-                Elemento 3 - Contenido que se mostrará al hacer scroll
-                <img src="./multimedia/par3.jpg" alt="zapatos">
-            </div>
-          </div>
-        
-          <div class="referencia-inferior"></div>
-        <div class="contenedor">
-            <section id="sobre-nosotros" class="puntoDeDeteccion">
-                <h2>
-                    Sobre nosotros
-                </h2>
-                <p>
-                    Somos una tienda de zapatos que se dedica a la venta de zapatos de calidad, con los mejores materiales y a los mejores precios. 
-                </p>
-                <!-- imagen de prueba-->
-                <img src="./multimedia/zapatos.jpg" alt="zapatos">
-            </section>
-            
         </div>
 
-    </body>
+        <h2>Sección 2</h2>
+        <div class="elemento-oculto">
+            <div class="contenido">
+                <img src="./multimedia/par2.jpg" alt="zapatos" class="imagen-producto">
+                <div>
+                    <h2>Elemento 2</h2>
+                    <p>Contenido que se mostrará al hacer scroll</p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Sección 3</h2>
+        <div class="elemento-oculto">
+            <div class="contenido">
+                <div>
+                    <h2>Elemento 3</h2>
+                    <p>Contenido que se mostrará al hacer scroll</p>
+                </div>
+                <img src="./multimedia/par3.jpg" alt="zapatos" class="imagen-producto">
+            </div>
+        </div>
+    </div>
+
+    <div class="referencia-inferior"></div>
+
+
+
+
+</body>
+
 </html>
