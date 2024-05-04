@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .promo {
@@ -29,7 +32,7 @@
 }
 
 .promo p {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #f1f1f1;
     font-weight: 300;
@@ -95,6 +98,9 @@ video {
 }
 
 .contenedor h2 {
+    margin-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 2.0rem;
     text-align: center;
     color: #f1f1f1;
@@ -102,8 +108,20 @@ video {
     background-color: rgba(0, 0, 0, 0);
 
 }
+.contenedor h3 {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
 
+}
 .contenedor p {
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 1.5rem;
     text-align: center;
     color: #f1f1f1;
@@ -343,6 +361,12 @@ video {
     transform: translate(0, -5px);
 }
 
+.respDuda {
+    opacity: 1; /* Opacidad inicial a 1 */
+    transition: opacity 2s ease;
+    flex-direction: column;
+    display: none;
+}
 
 /* Pie de página */
 .pie-pagina {
