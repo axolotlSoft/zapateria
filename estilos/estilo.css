@@ -123,6 +123,8 @@ video {
 .elemento-oculto.interseccion {
     opacity: 1;
     /* Mostrar elementos al intersectar el viewport */
+    transform: translate(-50, 0px);
+
 }
 
 .elemento-oculto.interseccion-inferior {
