@@ -1,6 +1,6 @@
 /* Estilos generales */
 * {
-    margin: 1px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     background-color: #000000;
@@ -190,6 +190,16 @@ video {
         /* Propiedades adicionales de flexbox */
     }
 
+    /* Para la sección de galería */
+    .columna-imagenes{
+        flex: 25%;
+        
+        /* flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px; */
+    
+    }
+
     /* Dudas */
     .dudas {
 
@@ -248,6 +258,16 @@ video {
         background-color: rgba(0, 0, 0, 0);
     }
 
+    /* Para la sección de galería */
+    .columna-imagenes{
+        flex: 50%;
+        
+        /* flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px; */
+    
+    }
+
     /* Dudas */
     .dudas {
 
@@ -257,6 +277,7 @@ video {
         display: block;
 
     }
+    
 
     /* Para la sección de dudas */
     .dudas h2 {
@@ -335,9 +356,27 @@ video {
     transform: translate(0, -5px);
 }
 
+/* Para la sección de galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    margin: 20px; */ 
+}
+
+.imagen-galeria {
+    width: 100%;
+    padding: 5px;
+    /* height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px; */
+    /* Redondeo de 10 píxeles */
+}
 
 
 
+/* Para la sección de dudas */
 .botonDudas {
     display: inline-block;
     border: none;
@@ -371,7 +410,7 @@ video {
 /* Pie de página */
 .pie-pagina {
     background-color: #4000ef;
-    height: 500px;
+    /* height: 500px; */
     color: #f1f1f1;
     text-align: center;
     padding: 20px;
@@ -383,7 +422,7 @@ video {
     color: #f1f1f1;
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0);
-    padding: 50px;
+    padding: 20px;
 
 }
 
@@ -396,6 +435,8 @@ video {
     background-color: rgba(0, 0, 0, 0);
 
 }
+
+
 
 .logo {
     width: 25%;
