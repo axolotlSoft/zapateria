@@ -151,7 +151,7 @@ video {
 }
 
 .referencia-inferior {
-    height: 100px;
+    height: 10px;
     /* Altura del elemento de referencia */
 }
 
@@ -356,7 +356,61 @@ video {
     transform: translate(0, -5px);
 }
 
+/* para la sección de sobre nosotros */
+.sobre-nosotros {
+    display:inline-block;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    color: #f1f1f1;
+}
+.lista-sobre-nosotros {
+    list-style-type: circle; /* Cambiar el tipo de viñeta a círculos */
+    color: white; /* Cambiar el color de los puntos a azul */
+}
+.sobre-nosotros h2 {
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.item-sobre-nosotros{
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.0rem;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.item-sobre-nosotros hr{
+    /* width: 50%;
+    margin: 0 auto;
+    border: 1px solid #f1f1f1; */
+    margin-top: 1rem;
+}
+
 /* Para la sección de galería */
+.titulo-galeria {
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -441,6 +495,6 @@ video {
 
 .logo {
     width: 25%;
-    height: 75px;
+    /* height: 75px; */
     background-color: rgba(0, 0, 0, 0);
 }
