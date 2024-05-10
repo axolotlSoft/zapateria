@@ -1,7 +1,7 @@
 /* Estilos generales */
 * {
-    margin: 0px;
-    padding: 0;
+    
+    padding: 0px;
     box-sizing: border-box;
     background-color: #000000;
     font-family: "Montserrat", sans-serif;
@@ -110,8 +110,8 @@ video {
 }
 .contenedor h3 {
     
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 2.0rem;
     text-align: center;
     color: #f1f1f1;
@@ -122,10 +122,10 @@ video {
 .contenedor p {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.2rem;
+    text-align: justify;
     color: #f1f1f1;
-    font-weight: 700;
+    font-weight: 500;
     background-color: rgba(0, 0, 0, 0);
 
 }
@@ -168,13 +168,15 @@ video {
         object-fit: cover;
         margin-bottom: 20px;
         border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         /* Redondeo de 10 píxeles */
         order: 0;
     }
 
     .textoI {
         width: 100%;
-        padding: 20px;
+        /* padding: 20px; */
         order: 1;
     }
 
@@ -242,12 +244,13 @@ video {
         object-fit: cover;
         margin-bottom: 20px;
         border-radius: 10px;
+        
         /* Redondeo de 10 píxeles */
     }
 
     .textoI {
         width: 100%;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
     /* Para el pie de página */
@@ -311,7 +314,7 @@ video {
 
 .texto {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 
@@ -412,6 +415,7 @@ video {
 }
 
 .galeria {
+    margin: 0px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -422,6 +426,7 @@ video {
 .imagen-galeria {
     width: 100%;
     padding: 5px;
+    border-radius: 10px;
     /* height: 300px;
     object-fit: cover;
     margin: 10px;
